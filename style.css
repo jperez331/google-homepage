@@ -2,26 +2,46 @@
   margin: 0%;
   padding: 0%;
   background-color: #1D1E20;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  list-style: none;
 }
 .root {
   font-family: Arial, sans-serif;
-  font-size: 14px;
-  color: #e8eaed;
+  font-size: 13px;
 }
+/* Here starts Header section */
 .header_div {
-  height: 80px;
-  text-align: right;
+  height: 48px;
   padding: 6px;
+  text-align: right;
 }
 .header_div-ul {
   list-style: none;
   display: inline-flex;
   flex-direction: row;
+  margin-top: 10px;
+}
+.ul_items {
+  display: inline-flex;
 }
 .header_div-li {
   margin: 10px;
 }
 .header_div-img {
   width: auto;
-  height: 25px;
+  height: 20px;
+  padding-top: 5px;
+}
+.header_div-profile {
+  width: auto;
+  height: 35px;
+  border-radius: 50%;
+}
+/* Here starts the main section */
+.div_logo-container {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+
 }
